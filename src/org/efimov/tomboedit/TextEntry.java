@@ -43,11 +43,6 @@ public class TextEntry extends Activity implements View.OnClickListener {
      */
     private EditText mText;
 
-    /**
-     * The content URI to the note that's being edited.
-     */
-    private Uri mUri;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +61,7 @@ public class TextEntry extends Activity implements View.OnClickListener {
         b.setOnClickListener(this);
     }
 
+    /*
     @Override
     protected void onResume() {
         super.onResume();
@@ -82,6 +78,7 @@ public class TextEntry extends Activity implements View.OnClickListener {
             //values.put(Notes.TITLE, mText.getText().toString());
             //getContentResolver().update(mUri, values, null, null);
     }
+    */
 
     public void onClick(View v) {
         // When the user clicks, just finish this activity.

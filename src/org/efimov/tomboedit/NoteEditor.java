@@ -23,7 +23,10 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.widget.EditText;
+import android.view.GestureDetector;
+
 
 /**
  * A generic activity for editing a note in a database.  This can be used
@@ -31,7 +34,7 @@ import android.widget.EditText;
  * {@link Intent#ACTION_EDIT}, or create a new note {@link Intent#ACTION_INSERT}.  
  */
 public class NoteEditor extends Activity {
-    private static final String TAG = "Notes";
+    private static final String TAG = "TomboEdit";
 
     /**
      * Standard projection for the interesting columns of a normal note.
@@ -65,6 +68,41 @@ public class NoteEditor extends Activity {
     private String mOriginalContent;
     private String mPassword;
 
+    // Gesture 
+    private GestureDetector mGestureDetector; 
+
+    // Swipe 
+    private static final int SWIPE_MIN_DISTANCE = 200; 
+    private static final int SWIPE_MAX_OFF_PATH = 250; 
+    private static final int SWIPE_THRESHOLD_VELOCITY = 1000; 
+    
+    private class Gesture extends GestureDetector.SimpleOnGestureListener { 
+    	@ Override 
+    	public boolean onFling (MotionEvent e1, MotionEvent e2, 
+    			float velocityX,     	float velocityY) 
+    	{ 
+    	super.onFling (e1, e2, velocityX, velocityY); 
+
+    	if (	e1.getX () - e2.getX ()> SWIPE_MIN_DISTANCE 
+    			&& Math.abs (velocityX)> SWIPE_THRESHOLD_VELOCITY) 
+    	{
+    		// next page 
+    	} else if (e2.getX () - e1.getX ()> SWIPE_MIN_DISTANCE) 
+    	{ 
+    	} 
+
+
+    	return true; 
+    	}     
+    }
+    	
+    @Override 
+    public boolean dispatchTouchEvent (MotionEvent ev) 
+    { 
+    	super.dispatchTouchEvent (ev); 
+    	return mGestureDetector.onTouchEvent (ev); 
+//    	return true; 
+    }     	
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,11 +110,8 @@ public class NoteEditor extends Activity {
 
         final Intent intent = getIntent();
         
-        byte[] cipherText = new byte[] { 1, 2, 3, 4 };
-        byte[] plainText = new byte[] { 5,6,7};
-        String password = "mypass";
-
-        boolean a = decrypt( cipherText, plainText, password);
+        
+        // String s = stringFromJNI();
 
         // Do some setup based on the action being performed.
 
@@ -88,10 +123,10 @@ public class NoteEditor extends Activity {
 
 	        mUri = Uri.fromFile(f);
 	        
-	        String path = mUri.getPath();
+	        //String path = mUri.getPath();
 	        
-	        Log.e(TAG, mUri.toString());
-	        Log.e(TAG, path);
+	        //Log.e(TAG, mUri.toString());
+	        //Log.e(TAG, path);
 
             //mUri = "ttt";
         } else if (Intent.ACTION_EDIT.equals(action) ||
@@ -103,8 +138,7 @@ public class NoteEditor extends Activity {
             Log.e(TAG, mUri.getLastPathSegment());
             if(mUri.getLastPathSegment().endsWith("chi"))
             {
-		        Intent intent2 = new Intent(TextEntry.TEXT_ENTRY_ACTION );
-		        intent2.setClassName("org.efimov.tomboedit", "org.efimov.tomboedit.TextEntry");
+            	Intent intent2 = new Intent(this, TextEntry.class);
 		        // Launch activity to enter password
 		        this.startActivityForResult(intent2, 0);
 	        }
@@ -134,6 +168,9 @@ public class NoteEditor extends Activity {
             finish();
             return;
         }
+
+        // Gesture 
+        mGestureDetector = new GestureDetector (this, new Gesture ());
 
         // Set the layout for this activity.  You can find it in res/layout/note_editor.xml
         setContentView(R.layout.note_editor);
@@ -165,9 +202,29 @@ public class NoteEditor extends Activity {
 	            if (fs != null) try { fs.close(); } catch (IOException ignored) { }
 	        }
 	        
-	        Log.e(TAG, "Password is " + mPassword);
+	        int bufLen = buffer.length;
+	        //Log.e(TAG, "Password is " + mPassword);
+	        if(null != mPassword)
+	        {
+	            byte[] cipherText = buffer;
+	            byte[] plainText = new byte[] { };
+	            String password = mPassword;
+
+	            boolean a = decrypt( cipherText, plainText, password);
+	            
+	            for(int i = 0; i < cipherText.length; i++)
+	            {
+	            	if('\0' == cipherText[i])
+	            	{
+	            		// Log.e(TAG, "BufLen is " + bufLen.toString());
+	            		bufLen = i+1;
+	            		break;
+	            	}
+	            }
+	            
+	        }
 	        
-	        ret = new String(buffer);
+	        ret = new String(buffer, 0, bufLen, "Cp1251");
 	        ret = ret.replaceAll("\r", "");
 	        
 	        return ret;
@@ -180,7 +237,7 @@ public class NoteEditor extends Activity {
 			e.printStackTrace();
 		}    	
 		
-		Log.e(TAG, "Ret="+ret);
+		//Log.e(TAG, "Ret="+ret);
 		
 		return ret;
     	
@@ -214,12 +271,13 @@ public class NoteEditor extends Activity {
 //            mCursor.moveToFirst();
 
             // Modify our overall title depending on the mode we are running in.
+        /*
             if (mState == STATE_EDIT) {
                 setTitle(getText(R.string.title_edit));
             } else if (mState == STATE_INSERT) {
                 setTitle(getText(R.string.title_create));
             }
-
+*/
             // This is a little tricky: we may be resumed after previously being
             // paused/stopped.  We want to put the new text in the text view,
             // but leave the user where they were (retain the cursor position
@@ -227,15 +285,22 @@ public class NoteEditor extends Activity {
 //            String note = mCursor.getString(COLUMN_INDEX_NOTE);
 //            String note = ReadFileFromUri(mUri);
 //            mText.setTextKeepState(note);
+            
+        if(!mUri.getLastPathSegment().endsWith("chi") || null != mPassword)
+        {
             // Get the note!
             String note = ReadFileFromUri(mUri);
             mText.setTextKeepState(note);
             
+            // set the title
+            setTitle(mUri.getLastPathSegment());
+            
             // If we hadn't previously retrieved the original text, do so
             // now.  This allows the user to revert their changes.
-//            if (mOriginalContent == null) {
-//                mOriginalContent = note;
-//            }
+            if (mOriginalContent == null) {
+                mOriginalContent = note;
+            }
+        }
 
 //        } else {
 //            setTitle(getText(R.string.error_title));
@@ -392,17 +457,11 @@ public class NoteEditor extends Activity {
         }
     }
     
-    /* A native method that is implemented by the
-     * 'hello-jni' native library, which is packaged
-     * with this application.
-     */
-    public native String  stringFromJNI();
-    
     public native boolean decrypt( byte[] cipherText, byte[] plainText, String password);
 
-    /* this is used to load the 'hello-jni' library on application
+    /* this is used to load the 'tombo-crypt' library on application
      * startup. The library has already been unpacked into
-     * /data/data/com.example.HelloJni/lib/libhello-jni.so at
+     * /data/data/org.efimov.tomboedit/lib/tombo-crypt.so at
      * installation time by the package manager.
      */
     static {

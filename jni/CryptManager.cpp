@@ -309,7 +309,59 @@ extern "C" int CryptManager_Decrypt(unsigned char* pBuf, int len, const char* pK
 
 	if(bRet)
 	{
-		bRet = mgr.Decrypt(pBuf, len);
+			unsigned char* pBufOriginal = pBuf;
+			DWORD nFileSize = len;
+			char version[5];
+			DWORD n;
+			DWORD nDataSize;
+
+			memcpy(version, pBuf, 4);
+			version[4] = '\0';
+			if (strcmp(version, "BF01") != 0) {
+				SetLastError(ERROR_INVALID_DATA);
+				return FALSE;
+			}
+
+			// data size
+			memcpy(&nDataSize, pBuf+4, sizeof(n));
+
+			pBuf = pBuf + 4 + sizeof(nDataSize);
+			n = nFileSize - 4 - sizeof(nDataSize);
+			if (!mgr.Decrypt(pBuf, n)) {
+				return FALSE;
+			}
+
+			// •œ�†‰»•¶MD5SUM‚ÌŽæ“¾
+			BYTE decriptsum[16];
+			getMD5Sum(decriptsum, pBuf + 24, nDataSize);
+
+			// �³‚µ‚­•œ�†‰»‚Å‚«‚½‚©‚Ìƒ`ƒFƒbƒN
+			for (int i = 0; i < 16; i++) {
+				if (pBuf[8 + i] != decriptsum[i]) {
+					FatalError(ERROR_INVALID_PASSWORD, "Invalid Password");
+					return FALSE;
+				}
+			}
+			pBuf[nDataSize + 24] = '\0';
+			//*pSize = nDataSize;
+
+			// —Ìˆæ�ÄŠm•Û
+			// —��”ƒf�[ƒ^‚ÆMD5SUM‚ð‚Ü‚Æ‚ß‚Ä•œ�†‰»‚·‚é‚½‚ß‚É1‚Â‚Ìƒoƒbƒtƒ@‚ÅŠm•Û‚µ‚½‚ª�A
+			// delete‚ð�³‚µ‚­�s‚¦‚é‚æ‚¤‚É—Ìˆæ‚ð�ÄŠm•Û�AƒRƒs�[‚µ‚Ä•Ô‚·
+			//LPBYTE pData = new BYTE[nDataSize + 1];
+			//if (pData == NULL) {
+			//	WipeOutAndDelete((char*)pBuf, nFileSize + 1);
+			//	SetLastError(ERROR_NOT_ENOUGH_MEMORY);
+			//	return NULL;
+			//}
+			LPBYTE pData = pBufOriginal;
+
+			memmove(pData, pBuf + 24, nDataSize);
+			memset(pData+nDataSize, 0, len-nDataSize);
+			//pData[nDataSize] = '\0';
+			//WipeOutAndDelete((char*)pBuf, nFileSize + 1);
+
+			return TRUE;
 	}
 
 	return 1;

@@ -13,11 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!-- 
- 
-<view xmlns:android="http://schemas.android.com/apk/res/android"
-    class="org.efimov.tomboedit.NoteEditor$LinedEditText"
- -->
+
 <view xmlns:android="http://schemas.android.com/apk/res/android"
     class="android.widget.EditText"
     android:id="@+id/note"

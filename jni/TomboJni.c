@@ -40,20 +40,24 @@ Java_org_efimov_tomboedit_NoteEditor_decrypt( JNIEnv* 	 env,
                                               jstring password)
 {
 	jbyte *pCipher = (*env)->GetByteArrayElements(env, cipherText, 0);
-	int pCiherLen = (*env)->GetArrayLength(env, cipherText);
-	jbyte *pPlain = (*env)->GetByteArrayElements(env, plainText, 0);
+	int cipherLen = (*env)->GetArrayLength(env, cipherText);
+	plainText = (*env)->NewByteArray(env, cipherLen);
 	jboolean isCopy = 0;
 	const jbyte *pPassword = (*env)->GetStringUTFChars(env, password, &isCopy);
 
-	__android_log_write(ANDROID_LOG_ERROR, "TomboJni", "test1");
+//	__android_log_print(ANDROID_LOG_ERROR, "TomboJni", "cipher=%p len=%d", pCipher, cipherLen);
+//	__android_log_print(ANDROID_LOG_ERROR, "TomboJni", "pwd=%s", pPassword);
 
 	jboolean bRet = JNI_TRUE;
-//	int iRet = CryptManager_Decrypt(pCipher, pCiherLen, pPassword);
+	int iRet = CryptManager_Decrypt(pCipher, cipherLen, pPassword);
 
-	(*env)->ReleaseByteArrayElements(env, cipherText, pCipher, JNI_ABORT);
-	(*env)->ReleaseByteArrayElements(env, plainText, pPlain, 0);
-	(*env)->ReleaseStringUTFChars(env, password, pPassword);
+	if( iRet )
+	{
+		(*env)->SetByteArrayRegion(env, plainText, 0, cipherLen, pCipher);
+		(*env)->ReleaseByteArrayElements(env, cipherText, pCipher, JNI_ABORT);
+		(*env)->ReleaseByteArrayElements(env, plainText, pCipher, 0);
+		(*env)->ReleaseStringUTFChars(env, password, pPassword);
+	}
 
-
-    return bRet;
+    return iRet != 0 ? JNI_TRUE: JNI_FALSE;
 }

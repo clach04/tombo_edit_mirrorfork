@@ -18,7 +18,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE    := tombo-crypt
 LOCAL_SRC_FILES := Crypt.cpp CryptManager.cpp File.cpp md5.c blowfish.c TomboJni.c
-LOCAL_CFLAGS	:= -DTOMBO 
+LOCAL_CFLAGS	:= -DTOMBO
 LOCAL_LDLIBS := -Lbuild/platforms/android-1.5/arch-arm/usr/lib -llog 
 
 
