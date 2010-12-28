@@ -3,6 +3,7 @@
       package="org.efimov.tomboedit"
       android:versionCode="1"
       android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="6" />
     <application android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name=".NoteEditor"
                   android:label="@string/app_name">
@@ -16,16 +17,9 @@
 			    <category android:name="android.intent.category.DEFAULT" />
                 <!-- from the http://stackoverflow.com/questions/1733195/android-intent-filter-for-a-particular-file-extension sample --> 
                 <data android:scheme="file" />
-                <!--
-        		<data android:mimeType="text/plain" />
-        		<data android:mimeType="text/*" />
-        		-->
         		<data android:mimeType="*/*" />
         		<data android:pathPattern=".*.txt" />
         		<data android:pathPattern=".*.chi" />
-        		<!--
-        		<data android:pathPattern=".*\\.txt" />
-        		-->
         		<data android:host="*" />
             </intent-filter>
         </activity>
