@@ -15,7 +15,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Canvas;
-import android.graphics.Paint;
+import android.graphics.Paint; 
 import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
