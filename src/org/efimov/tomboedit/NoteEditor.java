@@ -55,6 +55,7 @@ public class NoteEditor extends Activity {
     private static final int REVERT_ID = Menu.FIRST;
     private static final int DISCARD_ID = Menu.FIRST + 1;
     private static final int DELETE_ID = Menu.FIRST + 2;
+    private static final int SETTINGS_ID = Menu.FIRST + 3;
 
     // The different distinct states the activity can be run in.
     private static final int STATE_EDIT = 0;
@@ -224,7 +225,9 @@ public class NoteEditor extends Activity {
 	            
 	        }
 	        
-	        ret = new String(buffer, 0, bufLen, "Cp1251");
+	        String codePage = Prefs.getCodePage(getApplicationContext());
+	        
+	        ret = new String(buffer, 0, bufLen, codePage); // "Cp1251");
 	        ret = ret.replaceAll("\r", "");
 	        
 	        return ret;
@@ -371,6 +374,9 @@ public class NoteEditor extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
+        
+        menu.add(0, SETTINGS_ID, 0, R.string.menu_settings);
+        
 
         // Build the menus that are shown when editing.
         if (mState == STATE_EDIT) {
@@ -418,6 +424,9 @@ public class NoteEditor extends Activity {
             break;
         case REVERT_ID:
             cancelNote();
+            break;
+        case SETTINGS_ID:
+            startActivity(new Intent(this, Prefs.class));
             break;
         }
         return super.onOptionsItemSelected(item);

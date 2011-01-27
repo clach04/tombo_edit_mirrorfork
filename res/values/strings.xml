@@ -2,11 +2,29 @@
 <resources>
     <string name="hello">Hello World, NoteEditor!</string>
     <string name="app_name">Tombo Edit</string>
+
+    <!--  Settings  -->
+    <string name="tomboedit_settings">Tombo Edit Settings</string>
+    
+    <string name="settings_codepage">Code Page</string>
+    <string name="settings_codepage_summary">Specify Code Page of text notes</string>
+    
+    <string name="codepage_Utf8">Unicode (UTF-8)</string>
+    <string name="codepage_Cp1251">Windows Cyrillic (CP1251)</string>
+    <string name="codepage_JIS">Japanese (JIS)</string>
+    <string name="codepage_MS932">Windows Japanese (MS932)</string>
+    <string name="codepage_CP949">PC Korean (CP949)</string>
+    <string name="codepage_KSC5601">Korean (KSC5601)</string>
+    
+    <string name="settings_remember_password_for_5_minutes">Remember Password</string>
+    <string name="settings_remember_password_for_5_minutes_summary">Remember Password for 5 minutes</string>
+    
     <!-- from notepad example -->
     <string name="menu_delete">Delete</string>
     <string name="menu_insert">Add note</string>
     <string name="menu_revert">Revert</string>
     <string name="menu_discard">Discard</string>
+    <string name="menu_settings">Settings...</string>
 
     <string name="resolve_edit">Edit Tombo note</string>
     <string name="resolve_title">Edit title</string>  

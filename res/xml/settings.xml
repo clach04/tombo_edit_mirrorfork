@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/tomboedit_settings"
+        android:key="tomboedit_settings">
+
+    <ListPreference
+            android:key="codepage"
+            android:title="@string/settings_codepage"
+            android:summary="@string/settings_codepage_summary"
+            android:entries="@array/settings_codepage_names"
+            android:entryValues="@array/settings_codepage_values" />
+            
+	<CheckBoxPreference
+            android:key="remember_password_for_5_minutes"
+            android:title="@string/settings_remember_password_for_5_minutes"
+            android:summary="@string/settings_remember_password_for_5_minutes_summary"
+            android:defaultValue="true" />
+            
+
+</PreferenceScreen>
