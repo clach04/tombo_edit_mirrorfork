@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	05086555131C1E0300759F97 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 054C1DCB13185E7C00647C70 /* Icon.png */;
+	};
+	05086660131C3D5C00759F97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 05086661131C3D5C00759F97 /* UIResponder.h */;
+		name = "UIResponder.h: 22";
+		rLen = 20;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 2005;
+		vrLoc = 0;
+	};
+	05086661131C3D5C00759F97 /* UIResponder.h */ = {
+		isa = PBXFileReference;
+		name = UIResponder.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h;
+		sourceTree = "<absolute>";
+	};
+	05086662131C3D5C00759F97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */;
+		name = "iTomboViewController.m: 99";
+		rLen = 20;
+		rLoc = 2475;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 1539;
+	};
+	05086663131C3D5C00759F97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */;
+		name = "iTomboViewController.m: 106";
+		rLen = 27;
+		rLoc = 2686;
+		rType = 0;
+		vrLen = 1566;
+		vrLoc = 1999;
+	};
+	05086664131C3D5C00759F97 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 05086665131C3D5C00759F97 /* NSString.h */;
+		name = "NSString.h: 279";
+		rLen = 18;
+		rLoc = 17606;
+		rType = 0;
+		vrLen = 4808;
+		vrLoc = 14260;
+	};
+	05086665131C3D5C00759F97 /* NSString.h */ = {
+		isa = PBXFileReference;
+		name = NSString.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3659, 5200}}";
+			sepNavSelRange = "{17606, 18}";
+			sepNavVisRange = "{14260, 4808}";
+			sepNavWindowFrame = "{{107, 113}, {1465, 976}}";
+		};
+	};
+	054C1C34131841DD00647C70 /* iTombo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iTombo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	054C1C46131841E700647C70 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	054C1C47131841E700647C70 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	054C1C491318422500647C70 /* iTomboTesting */ = {
+		activeExec = 0;
+		executables = (
+			054C1C591318422500647C70 /* iTomboTesting */,
+		);
+	};
+	054C1C591318422500647C70 /* iTomboTesting */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iTomboTesting;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	054C1C5F1318426D00647C70 /* iTomboTests */ = {
+		activeExec = 0;
+	};
+	054C1C6F1318437D00647C70 /* iTomboTests.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 390}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 691}";
+		};
+	};
+	054C1C701318437D00647C70 /* iTomboTests.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {677, 455}}";
+			sepNavSelRange = "{375, 79}";
+			sepNavVisRange = "{166, 391}";
+			sepNavWindowFrame = "{{38, 176}, {1465, 976}}";
+		};
+	};
+	054C1C7C1318444B00647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 054C1C6F1318437D00647C70 /* iTomboTests.h */;
+		name = "iTomboTests.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 0;
+	};
+	054C1C7F131844E000647C70 /* iTomboTests.mm:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 054C1C701318437D00647C70 /* iTomboTests.mm */;
+		functionName = "-testAppDelegate";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 22;
+		location = iTomboTests;
+		modificationTime = 320611913.84503;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	054C1CF513184CB700647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 054C1C701318437D00647C70 /* iTomboTests.mm */;
+		name = "iTomboTests.mm: 17";
+		rLen = 0;
+		rLoc = 306;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 78;
+	};
+	054C1D25131851CC00647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iTombo-Info.plist */;
+		name = "iTombo-Info.plist: 49";
+		rLen = 0;
+		rLoc = 1524;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 1254;
+	};
+	054C1D26131851CC00647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iTomboAppDelegate.m */;
+		name = "iTomboAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 612;
+		vrLoc = 346;
+	};
+	054C1D2E1318524B00647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iTomboViewController.h */;
+		name = "iTomboViewController.h: 28";
+		rLen = 51;
+		rLoc = 567;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 174;
+	};
+	054C1D52131853AA00647C70 /* ObjectiveTomboCrypt.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1634, 750}}";
+			sepNavSelRange = "{195, 19}";
+			sepNavVisRange = "{0, 320}";
+		};
+	};
+	054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 637}}";
+			sepNavSelRange = "{772, 0}";
+			sepNavVisRange = "{693, 307}";
+			sepNavWindowFrame = "{{15, 197}, {1465, 976}}";
+		};
+	};
+	054C1D8913185C8B00647C70 /* iTomboViewController.m:97 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */;
+		functionName = "-viewPressed:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 97;
+		modificationTime = 320611913.844868;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	054C1D9313185CB100647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 054C1D9413185CB100647C70 /* NSString.h */;
+		name = "NSString.h: 56";
+		rLen = 29;
+		rLoc = 2887;
+		rType = 0;
+		vrLen = 2750;
+		vrLoc = 2472;
+	};
+	054C1D9413185CB100647C70 /* NSString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSString.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h;
+		sourceTree = "<absolute>";
+	};
+	054C1D9513185CB100647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */;
+		name = "ObjectiveTomboCrypt.mm: 41";
+		rLen = 82;
+		rLoc = 916;
+		rType = 0;
+		vrLen = 1140;
+		vrLoc = 0;
+	};
+	054C1D9613185CB100647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 054C1D52131853AA00647C70 /* ObjectiveTomboCrypt.h */;
+		name = "ObjectiveTomboCrypt.h: 12";
+		rLen = 19;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 0;
+	};
+	054C1DA613185D0A00647C70 /* ObjectiveTomboCrypt.mm:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */;
+		functionName = "+Decrypt:withPassword:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = iTomboTests;
+		modificationTime = 320611913.844752;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	054C1DEE131C0D0800647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 054C1DEF131C0D0800647C70 /* NSString.h */;
+		name = "NSString.h: 279";
+		rLen = 18;
+		rLoc = 17606;
+		rType = 0;
+		vrLen = 4886;
+		vrLoc = 14260;
+	};
+	054C1DEF131C0D0800647C70 /* NSString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSString.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h;
+		sourceTree = "<absolute>";
+	};
+	1D3623250D0F684500981E51 /* iTomboAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 936}}";
+			sepNavSelRange = "{775, 0}";
+			sepNavVisRange = "{629, 1123}";
+			sepNavWindowFrame = "{{61, 155}, {1465, 976}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iTombo */ = {
+		activeExec = 0;
+		executables = (
+			054C1C34131841DD00647C70 /* iTombo */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* iTomboViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {502, 416}}";
+			sepNavSelRange = "{567, 51}";
+			sepNavVisRange = "{174, 445}";
+			sepNavWindowFrame = "{{84, 134}, {1465, 976}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 1950}}";
+			sepNavSelRange = "{2686, 27}";
+			sepNavVisRange = "{1999, 1566}";
+			sepNavWindowFrame = "{{130, 92}, {1465, 976}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 054C1C34131841DD00647C70 /* iTombo */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iTombo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iTombo */,
+		);
+		breakpoints = (
+			054C1C7F131844E000647C70 /* iTomboTests.mm:22 */,
+			054C1D8913185C8B00647C70 /* iTomboViewController.m:97 */,
+			054C1DA613185D0A00647C70 /* ObjectiveTomboCrypt.mm:25 */,
+		);
+		codeSenseManager = 054C1C47131841E700647C70 /* Code sense */;
+		executables = (
+			054C1C34131841DD00647C70 /* iTombo */,
+			054C1C591318422500647C70 /* iTomboTesting */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1003,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					348,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320605560;
+			PBXWorkspaceStateSaveDate = 320605560;
+		};
+		perUserProjectItems = {
+			05086555131C1E0300759F97 /* PBXBookmark */ = 05086555131C1E0300759F97 /* PBXBookmark */;
+			05086660131C3D5C00759F97 /* PBXTextBookmark */ = 05086660131C3D5C00759F97 /* PBXTextBookmark */;
+			05086662131C3D5C00759F97 /* PBXTextBookmark */ = 05086662131C3D5C00759F97 /* PBXTextBookmark */;
+			05086663131C3D5C00759F97 /* PBXTextBookmark */ = 05086663131C3D5C00759F97 /* PBXTextBookmark */;
+			05086664131C3D5C00759F97 /* PBXTextBookmark */ = 05086664131C3D5C00759F97 /* PBXTextBookmark */;
+			054C1C7C1318444B00647C70 /* PBXTextBookmark */ = 054C1C7C1318444B00647C70 /* PBXTextBookmark */;
+			054C1CF513184CB700647C70 /* PBXTextBookmark */ = 054C1CF513184CB700647C70 /* PBXTextBookmark */;
+			054C1D25131851CC00647C70 /* PBXTextBookmark */ = 054C1D25131851CC00647C70 /* PBXTextBookmark */;
+			054C1D26131851CC00647C70 /* PBXTextBookmark */ = 054C1D26131851CC00647C70 /* PBXTextBookmark */;
+			054C1D2E1318524B00647C70 /* PBXTextBookmark */ = 054C1D2E1318524B00647C70 /* PBXTextBookmark */;
+			054C1D9313185CB100647C70 /* PBXTextBookmark */ = 054C1D9313185CB100647C70 /* PBXTextBookmark */;
+			054C1D9513185CB100647C70 /* PBXTextBookmark */ = 054C1D9513185CB100647C70 /* PBXTextBookmark */;
+			054C1D9613185CB100647C70 /* PBXTextBookmark */ = 054C1D9613185CB100647C70 /* PBXTextBookmark */;
+			054C1DEE131C0D0800647C70 /* PBXTextBookmark */ = 054C1DEE131C0D0800647C70 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 054C1C46131841E700647C70 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* iTombo-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {502, 1014}}";
+			sepNavSelRange = "{1524, 0}";
+			sepNavVisRange = "{1254, 477}";
+		};
+	};
+}

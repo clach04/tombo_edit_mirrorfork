@@ -1,0 +1,166 @@
+TiTombo copy
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.h
+c000000004D680A5D00000000000001DB
+t1298664029
+s475
+i<UIKit/UIKit.h>
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m
+c000000004D680A5D00000000000007B1
+t1298664029
+s1969
+i"iTomboAppDelegate.h"
+i"iTomboViewController.h"
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.h
+c000000004D680A5D00000000000000ED
+t1298664029
+s237
+i<UIKit/UIKit.h>
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m
+c000000004D680A5D0000000000000556
+t1298664029
+s1366
+i"iTomboViewController.h"
+
+N/Users/mefimov/git/tomboedit/iTombo/MainWindow.xib
+c000000004D680A5D0000000000004CFF
+t1298664029
+s19711
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app
+t1298664038
+s238
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app.dSYM
+t1298664038
+s102
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/Info.plist
+t1298664036
+s794
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/MainWindow.nib
+t1298664037
+s1121
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/PkgInfo
+t1298664036
+s8
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo
+t1298664038
+s16856
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTomboViewController.nib
+t1298664037
+s764
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTombo copy.build/Objects-normal/i386/iTombo.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTombo copy.build/Objects-normal/i386/iTomboAppDelegate.o
+t2
+s0
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTombo copy.build/Objects-normal/i386/iTomboViewController.o
+t2
+s0
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTombo copy.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib
+c000000004D680A5D0000000000003EDD
+t1298664029
+s16093
+
+N/Users/mefimov/git/tomboedit/iTombo/iTombo_Prefix.pch
+c000000004D680A5D00000000000000B5
+t1298664029
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mefimov/git/tomboedit/iTombo/main.m
+c000000004D680A5D000000000000016A
+t1298664029
+s362
+i<UIKit/UIKit.h>
+
+N/var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch.gch
+t1298664038
+s15453392
+
+NiTombo-Info copy.plist
+c000000004D680A5D00000000000004D6
+t1298664029
+s1238
+
+CCompileC "build/iTombo.build/Debug-iphonesimulator/iTombo copy.build/Objects-normal/i386/iTomboAppDelegate.o" /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/iTombo.build/Debug-iphonesimulator/iTombo copy.build/Objects-normal/i386/iTomboViewController.o" /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/iTombo.build/Debug-iphonesimulator/iTombo copy.build/Objects-normal/i386/main.o" /Users/mefimov/git/tomboedit/iTombo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/mefimov/git/tomboedit/iTombo/MainWindow.xib
+r0
+
+CCompileXIB /Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib
+r0
+
+CGenerateDSYMFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app.dSYM /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo
+r0
+
+CLd /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo normal i386
+r0
+
+CProcessInfoPlistFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/Info.plist "iTombo-Info copy.plist"
+r0
+
+CProcessPCH /var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch.gch iTombo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app
+r0
+

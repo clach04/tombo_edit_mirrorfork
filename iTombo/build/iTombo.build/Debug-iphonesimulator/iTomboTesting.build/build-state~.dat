@@ -1,0 +1,351 @@
+TiTomboTesting
+v7
+r0
+t320358288.562218
+cCheck dependencies
+cProcessInfoPlistFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/Info.plist "iTombo-Info copy.plist"
+cCpResource build/Debug-iphonesimulator/iTomboTesting.app/iTomboTests.octest build/Debug-iphonesimulator/iTomboTests.octest
+cCompileXIB /Users/mefimov/git/tomboedit/iTombo/MainWindow.xib
+cCompileXIB /Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib
+cProcessPCH /var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch.gch iTombo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/main.o /Users/mefimov/git/tomboedit/iTombo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboAppDelegate.o /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboViewController.o /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting normal i386
+cGenerateDSYMFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app.dSYM /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting
+cTouch /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.h
+c000000004D680A5D00000000000001DB
+t1298664029
+s475
+i<UIKit/UIKit.h>
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m
+c000000004D680A5D00000000000007B1
+t1298664029
+s1969
+i"iTomboAppDelegate.h"
+i"iTomboViewController.h"
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.h
+c000000004D680A5D00000000000000ED
+t1298664029
+s237
+i<UIKit/UIKit.h>
+
+N/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m
+c000000004D680A5D0000000000000556
+t1298664029
+s1366
+i"iTomboViewController.h"
+
+N/Users/mefimov/git/tomboedit/iTombo/MainWindow.xib
+c000000004D680A5D0000000000004CFF
+t1298664029
+s19711
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app
+t1298665043
+s272
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app.dSYM
+t1298664562
+s102
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/Info.plist
+t1298664469
+s794
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/MainWindow.nib
+t1298664037
+s1121
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/PkgInfo
+t1298664469
+s8
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo
+t1298664562
+s16876
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTomboTests.octest
+t1298665043
+s136
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTomboViewController.nib
+t1298664037
+s764
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app
+t1298665488
+s272
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app.dSYM
+t1298665488
+s102
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/Info.plist
+t1298665485
+s822
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/MainWindow.nib
+t1298665487
+s1121
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/PkgInfo
+t1298665485
+s8
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting
+t1298665488
+s16876
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTests.octest
+t1298665485
+s136
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboViewController.nib
+t1298665487
+s764
+
+N/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTests.octest
+c000000004D68100D0000000000000088
+t1298665485
+s136
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTombo.LinkFileList
+c000000004D680C720000000000000191
+t1298664562
+s401
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboAppDelegate.o
+t1298665488
+s50036
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboTesting.LinkFileList
+c000000004D68100D0000000000000191
+t1298665485
+s401
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboViewController.o
+t1298665488
+s38004
+
+N/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/main.o
+t1298665488
+s6296
+
+N/Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib
+c000000004D680A5D0000000000003EDD
+t1298664029
+s16093
+
+N/Users/mefimov/git/tomboedit/iTombo/iTombo_Prefix.pch
+c000000004D680A5D00000000000000B5
+t1298664029
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mefimov/git/tomboedit/iTombo/main.m
+c000000004D680A5D000000000000016A
+t1298664029
+s362
+i<UIKit/UIKit.h>
+
+N/var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch.gch
+t1298665488
+s15453392
+
+NiTombo-Info copy.plist
+c000000004D680A5D00000000000004D6
+t1298664029
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320358285#320358285#0(0"0(0#1#0"8631089600#0"0#
+
+CCompileC build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboAppDelegate.o /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320358288.326624
+e320358288.448177
+r1
+xCompileC
+xbuild/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboAppDelegate.o
+x/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m320358288#320358288#0(0"0(0#0#63"/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m8633116832#1972"    cd /Users/mefimov/git/tomboedit/iTombo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-generated-files.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-own-target-headers.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-all-target-headers.hmap -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-project-headers.hmap -F/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -I/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/include -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources/i386 -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources -include /var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch -c /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboAppDelegate.m -o /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboAppDelegate.o0#
+
+CCompileC build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboViewController.o /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320358288.412651
+e320358288.508307
+r1
+xCompileC
+xbuild/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboViewController.o
+x/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m320358288#320358288#0(0"0(0#0#66"/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m8630399296#1978"    cd /Users/mefimov/git/tomboedit/iTombo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-generated-files.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-own-target-headers.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-all-target-headers.hmap -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-project-headers.hmap -F/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -I/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/include -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources/i386 -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources -include /var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch -c /Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m -o /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboViewController.o0#
+
+CCompileC build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/main.o /Users/mefimov/git/tomboedit/iTombo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320358288.325327
+e320358288.412528
+r1
+xCompileC
+xbuild/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/main.o
+x/Users/mefimov/git/tomboedit/iTombo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/mefimov/git/tomboedit/iTombo/main.m320358288#320358288#0(0"0(0#0#42"/Users/mefimov/git/tomboedit/iTombo/main.m8608471328#1938"    cd /Users/mefimov/git/tomboedit/iTombo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-generated-files.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-own-target-headers.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-all-target-headers.hmap -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-project-headers.hmap -F/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -I/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/include -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources/i386 -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources -include /var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch -c /Users/mefimov/git/tomboedit/iTombo/main.m -o /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mefimov/git/tomboedit/iTombo/MainWindow.xib
+s320358285.252427
+e320358287.190539
+r1
+xCompileXIB
+x/Users/mefimov/git/tomboedit/iTombo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib320358285#320358287#0(0"0(0#0#50"/Users/mefimov/git/tomboedit/iTombo/MainWindow.xib8627905184#567"    cd /Users/mefimov/git/tomboedit/iTombo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/MainWindow.nib /Users/mefimov/git/tomboedit/iTombo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib
+s320358285.261481
+e320358287.162981
+r1
+xCompileXIB
+x/Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib
+lSLF07#2@35"CompileXIB iTomboViewController.xib320358285#320358287#0(0"0(0#0#60"/Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib8626476192#587"    cd /Users/mefimov/git/tomboedit/iTombo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboViewController.nib /Users/mefimov/git/tomboedit/iTombo/iTomboViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/iTombo.app/iTomboTests.octest build/Debug-iphonesimulator/iTomboTests.octest
+s320357843.913283
+e320357843.920604
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iTombo.app/iTomboTests.octest
+xbuild/Debug-iphonesimulator/iTomboTests.octest
+lSLF07#2@51"Copy build/Debug-iphonesimulator/iTomboTests.octest320357843#320357843#0(0"0(0#0#82"/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTests.octest8624855008#494"    cd /Users/mefimov/git/tomboedit/iTombo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTests.octest /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app0#
+
+CCpResource build/Debug-iphonesimulator/iTomboTesting.app/iTomboTests.octest build/Debug-iphonesimulator/iTomboTests.octest
+s320358285.251500
+e320358285.261369
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iTomboTesting.app/iTomboTests.octest
+xbuild/Debug-iphonesimulator/iTomboTests.octest
+lSLF07#2@51"Copy build/Debug-iphonesimulator/iTomboTests.octest320358285#320358285#0(0"0(0#0#82"/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTests.octest8628057856#501"    cd /Users/mefimov/git/tomboedit/iTombo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTests.octest /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app0#
+
+CGenerateDSYMFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app.dSYM /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo
+s320357362.696960
+e320357362.717417
+r1
+xGenerateDSYMFile
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app.dSYM
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/iTombo.app.dSYM build/Debug-iphonesimulator/iTombo.app/iTombo320357362#320357362#0(0"0(0#0#81"/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo8625933632#371"    cd /Users/mefimov/git/tomboedit/iTombo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo -o /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app.dSYM0#
+
+CGenerateDSYMFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app.dSYM /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting
+s320358288.539163
+e320358288.557717
+r1
+xGenerateDSYMFile
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app.dSYM
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/iTomboTesting.app.dSYM build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting320358288#320358288#0(0"0(0#0#95"/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting8626257728#392"    cd /Users/mefimov/git/tomboedit/iTombo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting -o /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app.dSYM0#
+
+CLd /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo normal i386
+s320357362.663695
+e320357362.696829
+r1
+xLd
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo
+xnormal
+xi386
+lSLF07#2@86"Link /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo320357362#320357362#0(0"0(0#0#0"8626384000#887"    cd /Users/mefimov/git/tomboedit/iTombo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -F/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -filelist /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTombo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/iTombo0#
+
+CLd /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting normal i386
+s320358288.508431
+e320358288.539050
+r1
+xLd
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting
+xnormal
+xi386
+lSLF07#2@100"Link /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting320358288#320358288#0(0"0(0#0#0"8628068608#908"    cd /Users/mefimov/git/tomboedit/iTombo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -F/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -filelist /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/Objects-normal/i386/iTomboTesting.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/iTomboTesting0#
+
+CProcessInfoPlistFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app/Info.plist "iTombo-Info copy.plist"
+r0
+
+CProcessInfoPlistFile /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/Info.plist "iTombo-Info copy.plist"
+s320358285.234870
+e320358285.251392
+r1
+xProcessInfoPlistFile
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/Info.plist
+xiTombo-Info copy.plist
+lSLF07#2@30"Process iTombo-Info copy.plist320358285#320358285#0(0"0(0#0#58"/Users/mefimov/git/tomboedit/iTombo/iTombo-Info copy.plist8625984384#488"    cd /Users/mefimov/git/tomboedit/iTombo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "iTombo-Info copy.plist" -genpkginfo /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app/Info.plist0#
+
+CProcessPCH /var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch.gch iTombo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320358287.190670
+e320358288.325200
+r1
+xProcessPCH
+x/var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch.gch
+xiTombo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile iTombo_Prefix.pch320358287#320358288#0(0"0(0#0#53"/Users/mefimov/git/tomboedit/iTombo/iTombo_Prefix.pch8622122560#1827"    cd /Users/mefimov/git/tomboedit/iTombo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-generated-files.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-own-target-headers.hmap -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-all-target-headers.hmap -iquote /Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/iTomboTesting-project-headers.hmap -F/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator -I/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/include -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources/i386 -I/Users/mefimov/git/tomboedit/iTombo/build/iTombo.build/Debug-iphonesimulator/iTomboTesting.build/DerivedSources -c /Users/mefimov/git/tomboedit/iTombo/iTombo_Prefix.pch -o /var/folders/ak/akhfi9xNE7KxCAYvM17mzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iTombo_Prefix-gzaoccgmwgujjoerlxaiutlysjxe/iTombo_Prefix.pch.gch0#
+
+CTouch /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app
+s320357843.921214
+e320357843.925700
+r1
+xTouch
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app
+lSLF07#2@80"Touch /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app320357843#320357843#0(0"0(0#0#0"8622904384#271"    cd /Users/mefimov/git/tomboedit/iTombo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTombo.app0#
+
+CTouch /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app
+s320358288.557835
+e320358288.562163
+r1
+xTouch
+x/Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app
+lSLF07#2@87"Touch /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app320358288#320358288#0(0"0(0#0#0"8625808672#278"    cd /Users/mefimov/git/tomboedit/iTombo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mefimov/git/tomboedit/iTombo/build/Debug-iphonesimulator/iTomboTesting.app0#
+

@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	052C315413180C3F003A20DF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	052C315513180C3F003A20DF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	054C1C0913183C1100647C70 /* otest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"-SenTest Self",
+			"$(BUILT_PRODUCTS_DIR)/tombocrypt_unit.octest",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 054C1C0A13183C1100647C70 /* otest */;
+		libgmallocEnabled = 0;
+		name = otest;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	054C1C0A13183C1100647C70 /* otest */ = {
+		isa = PBXFileReference;
+		name = otest;
+		path = Developer/usr/bin/otest;
+		sourceTree = SDKROOT;
+	};
+	054C1C1913183EBC00647C70 /* tombo-unit.mm:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 055F0196131811A9004EDDE7 /* tombo-unit.mm */;
+		functionName = "-testDecrypt";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		location = "tombo-unit";
+		modificationTime = 320364070.414442;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	054C1CC013184AF700647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F0196131811A9004EDDE7 /* tombo-unit.mm */;
+		name = "tombo-unit.mm: 38";
+		rLen = 0;
+		rLoc = 912;
+		rType = 0;
+		vrLen = 815;
+		vrLoc = 302;
+	};
+	054C1DE9131C0CFC00647C70 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F0196131811A9004EDDE7 /* tombo-unit.mm */;
+		name = "tombo-unit.mm: 39";
+		rLen = 186;
+		rLoc = 913;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 145;
+	};
+	055F014A13180CE4004EDDE7 /* blowfish.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {648, 9945}}";
+			sepNavSelRange = "{19203, 0}";
+			sepNavVisRange = "{18792, 854}";
+		};
+	};
+	055F014C13180CE4004EDDE7 /* Crypt.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {648, 333}}";
+			sepNavSelRange = "{101, 0}";
+			sepNavVisRange = "{0, 259}";
+		};
+	};
+	055F014D13180CE4004EDDE7 /* CryptManager.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 4849}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 948}";
+		};
+	};
+	055F014E13180CE4004EDDE7 /* CryptManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 689}}";
+			sepNavSelRange = "{834, 0}";
+			sepNavVisRange = "{527, 815}";
+		};
+	};
+	055F015413180CE4004EDDE7 /* wintypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {648, 676}}";
+			sepNavSelRange = "{361, 35}";
+			sepNavVisRange = "{0, 771}";
+		};
+	};
+	055F018313180FC2004EDDE7 /* tombo-unit */ = {
+		activeExec = 0;
+	};
+	055F018E13181040004EDDE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F014A13180CE4004EDDE7 /* blowfish.c */;
+		name = "blowfish.c: 33";
+		rLen = 0;
+		rLoc = 1150;
+		rType = 0;
+		vrLen = 1340;
+		vrLoc = 0;
+	};
+	055F019013181040004EDDE7 /* TomboJni.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = TomboJni.c;
+		path = /Users/mefimov/git/tomboedit/jni/TomboJni.c;
+		sourceTree = "<absolute>";
+	};
+	055F0195131811A9004EDDE7 /* tombo-unit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 527}}";
+			sepNavSelRange = "{621, 0}";
+			sepNavVisRange = "{0, 944}";
+			sepNavWindowFrame = "{{15, 197}, {1465, 976}}";
+		};
+	};
+	055F0196131811A9004EDDE7 /* tombo-unit.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {718, 715}}";
+			sepNavSelRange = "{913, 186}";
+			sepNavVisRange = "{145, 955}";
+		};
+	};
+	055F019C131811E4004EDDE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F019013181040004EDDE7 /* TomboJni.c */;
+		name = "TomboJni.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1550;
+		vrLoc = 861;
+	};
+	055F021813181A90004EDDE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F014C13180CE4004EDDE7 /* Crypt.h */;
+		name = "Crypt.h: 10";
+		rLen = 0;
+		rLoc = 101;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	055F021913181A90004EDDE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F0195131811A9004EDDE7 /* tombo-unit.h */;
+		name = "tombo-unit.h: 14";
+		rLen = 0;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 0;
+	};
+	055F021A13181A90004EDDE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F014D13180CE4004EDDE7 /* CryptManager.cpp */;
+		name = "CryptManager.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 0;
+	};
+	055F021B13181A90004EDDE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 055F014E13180CE4004EDDE7 /* CryptManager.h */;
+		name = "CryptManager.h: 31";
+		rLen = 0;
+		rLoc = 834;
+		rType = 0;
+		vrLen = 1192;
+		vrLoc = 152;
+	};
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 054C1C0913183C1100647C70 /* otest */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = D2AAC07D0554694100DB518D /* tombo-crypt */;
+		addToTargets = (
+			055F018313180FC2004EDDE7 /* tombo-unit */,
+		);
+		breakpoints = (
+			054C1C1913183EBC00647C70 /* tombo-unit.mm:44 */,
+		);
+		codeSenseManager = 052C315513180C3F003A20DF /* Code sense */;
+		executables = (
+			054C1C0913183C1100647C70 /* otest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					428,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					540,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					516,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					500,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320361422;
+			PBXWorkspaceStateSaveDate = 320361422;
+		};
+		perUserProjectItems = {
+			054C1CC013184AF700647C70 /* PBXTextBookmark */ = 054C1CC013184AF700647C70 /* PBXTextBookmark */;
+			054C1DE9131C0CFC00647C70 /* PBXTextBookmark */ = 054C1DE9131C0CFC00647C70 /* PBXTextBookmark */;
+			055F018E13181040004EDDE7 /* PBXTextBookmark */ = 055F018E13181040004EDDE7 /* PBXTextBookmark */;
+			055F019C131811E4004EDDE7 /* PBXTextBookmark */ = 055F019C131811E4004EDDE7 /* PBXTextBookmark */;
+			055F021813181A90004EDDE7 /* PBXTextBookmark */ = 055F021813181A90004EDDE7 /* PBXTextBookmark */;
+			055F021913181A90004EDDE7 /* PBXTextBookmark */ = 055F021913181A90004EDDE7 /* PBXTextBookmark */;
+			055F021A13181A90004EDDE7 /* PBXTextBookmark */ = 055F021A13181A90004EDDE7 /* PBXTextBookmark */;
+			055F021B13181A90004EDDE7 /* PBXTextBookmark */ = 055F021B13181A90004EDDE7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 052C315413180C3F003A20DF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D2AAC07D0554694100DB518D /* tombo-crypt */ = {
+		activeExec = 0;
+	};
+}

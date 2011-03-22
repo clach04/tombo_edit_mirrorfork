@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054C1C4B1318422500647C70 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		054C1C4C1318422500647C70 /* iTomboViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iTomboViewController.xib */; };
+		054C1C4E1318422500647C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		054C1C4F1318422500647C70 /* iTomboAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iTomboAppDelegate.m */; };
+		054C1C501318422500647C70 /* iTomboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */; };
+		054C1C521318422500647C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		054C1C531318422500647C70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		054C1C541318422500647C70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		054C1C691318431900647C70 /* iTomboTests.octest in Resources */ = {isa = PBXBuildFile; fileRef = 054C1C601318426D00647C70 /* iTomboTests.octest */; };
+		054C1C711318437D00647C70 /* iTomboTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 054C1C701318437D00647C70 /* iTomboTests.mm */; };
+		054C1D48131852E100647C70 /* libtombo_crypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 054C1D42131852D200647C70 /* libtombo_crypt.a */; };
+		054C1D54131853AA00647C70 /* ObjectiveTomboCrypt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */; };
+		054C1D55131853AA00647C70 /* ObjectiveTomboCrypt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */; };
+		054C1D56131853AA00647C70 /* ObjectiveTomboCrypt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */; };
+		054C1DCC13185E7C00647C70 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 054C1DCB13185E7C00647C70 /* Icon.png */; };
+		1D3623260D0F684500981E51 /* iTomboAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iTomboAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iTomboViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iTomboViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iTomboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		054C1C661318428700647C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054C1C5F1318426D00647C70;
+			remoteInfo = iTomboTests;
+		};
+		054C1D41131852D200647C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054C1D38131852D200647C70 /* tombo-crypt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "tombo-crypt";
+		};
+		054C1D43131852D200647C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054C1D38131852D200647C70 /* tombo-crypt.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 055F018413180FC2004EDDE7;
+			remoteInfo = "tombo-unit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054C1C581318422500647C70 /* iTomboTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTomboTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054C1C5A1318422600647C70 /* iTombo-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTombo-Info copy.plist"; sourceTree = "<group>"; };
+		054C1C601318426D00647C70 /* iTomboTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTomboTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		054C1C611318426D00647C70 /* iTomboTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTomboTests-Info.plist"; sourceTree = "<group>"; };
+		054C1C6F1318437D00647C70 /* iTomboTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTomboTests.h; sourceTree = "<group>"; };
+		054C1C701318437D00647C70 /* iTomboTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iTomboTests.mm; sourceTree = "<group>"; };
+		054C1D38131852D200647C70 /* tombo-crypt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "tombo-crypt.xcodeproj"; path = "../jni/tombo-crypt.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		054C1D52131853AA00647C70 /* ObjectiveTomboCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveTomboCrypt.h; sourceTree = "<group>"; };
+		054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveTomboCrypt.mm; sourceTree = "<group>"; };
+		054C1DCB13185E7C00647C70 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iTomboAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTomboAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iTomboAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTomboAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iTombo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTombo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iTomboViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iTomboViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iTomboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTomboViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTomboViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iTombo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTombo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iTombo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTombo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054C1C511318422500647C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C1C521318422500647C70 /* Foundation.framework in Frameworks */,
+				054C1C531318422500647C70 /* UIKit.framework in Frameworks */,
+				054C1C541318422500647C70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C1C5D1318426D00647C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C1D48131852E100647C70 /* libtombo_crypt.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054C1C6C1318433400647C70 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				054C1C6F1318437D00647C70 /* iTomboTests.h */,
+				054C1C701318437D00647C70 /* iTomboTests.mm */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		054C1D39131852D200647C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054C1D42131852D200647C70 /* libtombo_crypt.a */,
+				054C1D44131852D200647C70 /* tombo-unit.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iTomboAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iTomboAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* iTomboViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iTomboViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iTombo.app */,
+				054C1C581318422500647C70 /* iTomboTesting.app */,
+				054C1C601318426D00647C70 /* iTomboTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				054C1D38131852D200647C70 /* tombo-crypt.xcodeproj */,
+				054C1C6C1318433400647C70 /* Tests */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				054C1C611318426D00647C70 /* iTomboTests-Info.plist */,
+				054C1D52131853AA00647C70 /* ObjectiveTomboCrypt.h */,
+				054C1D53131853AA00647C70 /* ObjectiveTomboCrypt.mm */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iTombo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* iTomboViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iTombo-Info.plist */,
+				054C1DCB13185E7C00647C70 /* Icon.png */,
+				054C1C5A1318422600647C70 /* iTombo-Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054C1C491318422500647C70 /* iTomboTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054C1C551318422500647C70 /* Build configuration list for PBXNativeTarget "iTomboTesting" */;
+			buildPhases = (
+				054C1C4A1318422500647C70 /* Resources */,
+				054C1C4D1318422500647C70 /* Sources */,
+				054C1C511318422500647C70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054C1C671318428700647C70 /* PBXTargetDependency */,
+			);
+			name = iTomboTesting;
+			productName = iTombo;
+			productReference = 054C1C581318422500647C70 /* iTomboTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		054C1C5F1318426D00647C70 /* iTomboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054C1C651318426E00647C70 /* Build configuration list for PBXNativeTarget "iTomboTests" */;
+			buildPhases = (
+				054C1C5B1318426D00647C70 /* Resources */,
+				054C1C5C1318426D00647C70 /* Sources */,
+				054C1C5D1318426D00647C70 /* Frameworks */,
+				054C1C5E1318426D00647C70 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTomboTests;
+			productName = iTomboTests;
+			productReference = 054C1C601318426D00647C70 /* iTomboTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1D6058900D05DD3D006BFB54 /* iTombo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTombo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTombo;
+			productName = iTombo;
+			productReference = 1D6058910D05DD3D006BFB54 /* iTombo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTombo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 054C1D39131852D200647C70 /* Products */;
+					ProjectRef = 054C1D38131852D200647C70 /* tombo-crypt.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iTombo */,
+				054C1C491318422500647C70 /* iTomboTesting */,
+				054C1C5F1318426D00647C70 /* iTomboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		054C1D42131852D200647C70 /* libtombo_crypt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtombo_crypt.a;
+			remoteRef = 054C1D41131852D200647C70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		054C1D44131852D200647C70 /* tombo-unit.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "tombo-unit.octest";
+			remoteRef = 054C1D43131852D200647C70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054C1C4A1318422500647C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C1C691318431900647C70 /* iTomboTests.octest in Resources */,
+				054C1C4B1318422500647C70 /* MainWindow.xib in Resources */,
+				054C1C4C1318422500647C70 /* iTomboViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C1C5B1318426D00647C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iTomboViewController.xib in Resources */,
+				054C1DCC13185E7C00647C70 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		054C1C5E1318426D00647C70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054C1C4D1318422500647C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C1C4E1318422500647C70 /* main.m in Sources */,
+				054C1C4F1318422500647C70 /* iTomboAppDelegate.m in Sources */,
+				054C1C501318422500647C70 /* iTomboViewController.m in Sources */,
+				054C1D56131853AA00647C70 /* ObjectiveTomboCrypt.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054C1C5C1318426D00647C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C1C711318437D00647C70 /* iTomboTests.mm in Sources */,
+				054C1D54131853AA00647C70 /* ObjectiveTomboCrypt.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iTomboAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iTomboViewController.m in Sources */,
+				054C1D55131853AA00647C70 /* ObjectiveTomboCrypt.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		054C1C671318428700647C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054C1C5F1318426D00647C70 /* iTomboTests */;
+			targetProxy = 054C1C661318428700647C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		054C1C561318422500647C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTombo_Prefix.pch;
+				INFOPLIST_FILE = "iTombo-Info copy.plist";
+				PRODUCT_NAME = iTomboTesting;
+			};
+			name = Debug;
+		};
+		054C1C571318422500647C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTombo_Prefix.pch;
+				INFOPLIST_FILE = "iTombo-Info copy.plist";
+				PRODUCT_NAME = iTomboTesting;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054C1C631318426E00647C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "iTomboTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = iTomboTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		054C1C641318426E00647C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "iTomboTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = iTomboTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTombo_Prefix.pch;
+				INFOPLIST_FILE = "iTombo-Info.plist";
+				PRODUCT_NAME = iTombo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTombo_Prefix.pch;
+				INFOPLIST_FILE = "iTombo-Info.plist";
+				PRODUCT_NAME = iTombo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054C1C551318422500647C70 /* Build configuration list for PBXNativeTarget "iTomboTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054C1C561318422500647C70 /* Debug */,
+				054C1C571318422500647C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054C1C651318426E00647C70 /* Build configuration list for PBXNativeTarget "iTomboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054C1C631318426E00647C70 /* Debug */,
+				054C1C641318426E00647C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTombo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTombo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
