@@ -1,5 +1,0 @@
-/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m:10:32: error: ObjectiveTomboCrypt.h: No such file or directory
-/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m: In function '-[iTomboViewController viewPressed:]':
-/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m:83: error: 'ObjectiveTomboCrypt' undeclared (first use in this function)
-/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m:83: error: (Each undeclared identifier is reported only once
-/Users/mefimov/git/tomboedit/iTombo/Classes/iTomboViewController.m:83: error: for each function it appears in.)
