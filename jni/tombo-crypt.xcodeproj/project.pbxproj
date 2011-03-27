@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054C1C03131821AE00647C70 /* libtombo_crypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libtombo_crypt.a */; };
+		055F015513180CE4004EDDE7 /* bithelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 055F014913180CE4004EDDE7 /* bithelp.h */; };
+		055F015613180CE4004EDDE7 /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 055F014A13180CE4004EDDE7 /* blowfish.c */; };
+		055F015713180CE4004EDDE7 /* Crypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055F014B13180CE4004EDDE7 /* Crypt.cpp */; };
+		055F015813180CE4004EDDE7 /* Crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 055F014C13180CE4004EDDE7 /* Crypt.h */; };
+		055F015913180CE4004EDDE7 /* CryptManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055F014D13180CE4004EDDE7 /* CryptManager.cpp */; };
+		055F015A13180CE4004EDDE7 /* CryptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 055F014E13180CE4004EDDE7 /* CryptManager.h */; };
+		055F015B13180CE4004EDDE7 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055F014F13180CE4004EDDE7 /* File.cpp */; };
+		055F015C13180CE4004EDDE7 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = 055F015013180CE4004EDDE7 /* File.h */; };
+		055F015D13180CE4004EDDE7 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 055F015113180CE4004EDDE7 /* md5.c */; };
+		055F015E13180CE4004EDDE7 /* TomboCrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055F015213180CE4004EDDE7 /* TomboCrypt.cpp */; };
+		055F016013180CE4004EDDE7 /* wintypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 055F015413180CE4004EDDE7 /* wintypes.h */; };
+		055F0197131811A9004EDDE7 /* tombo-unit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 055F0196131811A9004EDDE7 /* tombo-unit.mm */; };
+		AA747D9F0F9514B9006C5449 /* tombo_crypt_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* tombo_crypt_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		055F014913180CE4004EDDE7 /* bithelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bithelp.h; sourceTree = "<group>"; };
+		055F014A13180CE4004EDDE7 /* blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blowfish.c; sourceTree = "<group>"; };
+		055F014B13180CE4004EDDE7 /* Crypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Crypt.cpp; sourceTree = "<group>"; };
+		055F014C13180CE4004EDDE7 /* Crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crypt.h; sourceTree = "<group>"; };
+		055F014D13180CE4004EDDE7 /* CryptManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CryptManager.cpp; sourceTree = "<group>"; };
+		055F014E13180CE4004EDDE7 /* CryptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptManager.h; sourceTree = "<group>"; };
+		055F014F13180CE4004EDDE7 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		055F015013180CE4004EDDE7 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		055F015113180CE4004EDDE7 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		055F015213180CE4004EDDE7 /* TomboCrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TomboCrypt.cpp; sourceTree = "<group>"; };
+		055F015413180CE4004EDDE7 /* wintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wintypes.h; sourceTree = "<group>"; };
+		055F018413180FC2004EDDE7 /* tombo-unit.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tombo-unit.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		055F018513180FC2004EDDE7 /* tombo-unit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tombo-unit-Info.plist"; sourceTree = "<group>"; };
+		055F0195131811A9004EDDE7 /* tombo-unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tombo-unit.h"; sourceTree = "<group>"; };
+		055F0196131811A9004EDDE7 /* tombo-unit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "tombo-unit.mm"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* tombo_crypt_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tombo_crypt_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libtombo_crypt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtombo_crypt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		055F018113180FC2004EDDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054C1C03131821AE00647C70 /* libtombo_crypt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libtombo_crypt.a */,
+				055F018413180FC2004EDDE7 /* tombo-unit.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* tombo-crypt */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				055F018513180FC2004EDDE7 /* tombo-unit-Info.plist */,
+				055F0195131811A9004EDDE7 /* tombo-unit.h */,
+				055F0196131811A9004EDDE7 /* tombo-unit.mm */,
+			);
+			name = "tombo-crypt";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				055F014913180CE4004EDDE7 /* bithelp.h */,
+				055F014A13180CE4004EDDE7 /* blowfish.c */,
+				055F014B13180CE4004EDDE7 /* Crypt.cpp */,
+				055F014C13180CE4004EDDE7 /* Crypt.h */,
+				055F014D13180CE4004EDDE7 /* CryptManager.cpp */,
+				055F014E13180CE4004EDDE7 /* CryptManager.h */,
+				055F014F13180CE4004EDDE7 /* File.cpp */,
+				055F015013180CE4004EDDE7 /* File.h */,
+				055F015113180CE4004EDDE7 /* md5.c */,
+				055F015213180CE4004EDDE7 /* TomboCrypt.cpp */,
+				055F015413180CE4004EDDE7 /* wintypes.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* tombo_crypt_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* tombo_crypt_Prefix.pch in Headers */,
+				055F015513180CE4004EDDE7 /* bithelp.h in Headers */,
+				055F015813180CE4004EDDE7 /* Crypt.h in Headers */,
+				055F015A13180CE4004EDDE7 /* CryptManager.h in Headers */,
+				055F015C13180CE4004EDDE7 /* File.h in Headers */,
+				055F016013180CE4004EDDE7 /* wintypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		055F018313180FC2004EDDE7 /* tombo-unit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055F018813180FC2004EDDE7 /* Build configuration list for PBXNativeTarget "tombo-unit" */;
+			buildPhases = (
+				055F017F13180FC2004EDDE7 /* Resources */,
+				055F018013180FC2004EDDE7 /* Sources */,
+				055F018113180FC2004EDDE7 /* Frameworks */,
+				055F018213180FC2004EDDE7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tombo-unit";
+			productName = "tombo-unit";
+			productReference = 055F018413180FC2004EDDE7 /* tombo-unit.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D2AAC07D0554694100DB518D /* tombo-crypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tombo-crypt" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tombo-crypt";
+			productName = "tombo-crypt";
+			productReference = D2AAC07E0554694100DB518D /* libtombo_crypt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tombo-crypt" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* tombo-crypt */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* tombo-crypt */,
+				055F018313180FC2004EDDE7 /* tombo-unit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		055F017F13180FC2004EDDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055F018213180FC2004EDDE7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055F018013180FC2004EDDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055F0197131811A9004EDDE7 /* tombo-unit.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055F015613180CE4004EDDE7 /* blowfish.c in Sources */,
+				055F015713180CE4004EDDE7 /* Crypt.cpp in Sources */,
+				055F015913180CE4004EDDE7 /* CryptManager.cpp in Sources */,
+				055F015B13180CE4004EDDE7 /* File.cpp in Sources */,
+				055F015D13180CE4004EDDE7 /* md5.c in Sources */,
+				055F015E13180CE4004EDDE7 /* TomboCrypt.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		055F018613180FC2004EDDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "tombo-unit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "tombo-unit";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		055F018713180FC2004EDDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "tombo-unit-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "tombo-unit";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/tombo_crypt.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tombo_crypt_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = tombo_crypt;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/tombo_crypt.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tombo_crypt_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = tombo_crypt;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "TOMBO=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "TOMBO=1";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055F018813180FC2004EDDE7 /* Build configuration list for PBXNativeTarget "tombo-unit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055F018613180FC2004EDDE7 /* Debug */,
+				055F018713180FC2004EDDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tombo-crypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tombo-crypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
